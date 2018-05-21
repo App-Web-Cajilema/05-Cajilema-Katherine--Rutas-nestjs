@@ -22,7 +22,7 @@ export class Inicio {
 
         const existeContenido = (Todo);
 
-        // Todo sale bien
+        
         if(existeContenido) {
             console.log(res.status(200).send(Todo));
             return res.status(200).send(Todo);
